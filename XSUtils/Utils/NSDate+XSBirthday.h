@@ -24,4 +24,7 @@
 //得到星座的算法
 - (NSString *)getAstroWithMonth:(NSInteger)m day:(NSInteger)d;
 
+// 农历
+- (NSString*)chineseCalendar;
+
 @end

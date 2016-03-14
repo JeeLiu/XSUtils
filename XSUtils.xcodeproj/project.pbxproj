@@ -7,17 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B4567A021C83E5DA00B24D1F /* XSCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = B4567A011C83E5DA00B24D1F /* XSCornerRadius.m */; };
 		B45E9DF61BC612D900F10FCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B45E9DF51BC612D900F10FCE /* main.m */; };
 		B45E9DF91BC612D900F10FCE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B45E9DF81BC612D900F10FCE /* AppDelegate.m */; };
 		B45E9DFC1BC612D900F10FCE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B45E9DFB1BC612D900F10FCE /* ViewController.m */; };
 		B45E9DFF1BC612D900F10FCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B45E9DFD1BC612D900F10FCE /* Main.storyboard */; };
 		B45E9E011BC612D900F10FCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B45E9E001BC612D900F10FCE /* Assets.xcassets */; };
 		B45E9E041BC612D900F10FCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B45E9E021BC612D900F10FCE /* LaunchScreen.storyboard */; };
-		B45E9E0E1BC6131900F10FCE /* NSString+XSBirthday.m in Sources */ = {isa = PBXBuildFile; fileRef = B45E9E0D1BC6131900F10FCE /* NSString+XSBirthday.m */; settings = {ASSET_TAGS = (); }; };
-		B45E9E111BC6132B00F10FCE /* NSDate+XSBirthday.m in Sources */ = {isa = PBXBuildFile; fileRef = B45E9E101BC6132B00F10FCE /* NSDate+XSBirthday.m */; settings = {ASSET_TAGS = (); }; };
+		B45E9E0E1BC6131900F10FCE /* NSString+XSBirthday.m in Sources */ = {isa = PBXBuildFile; fileRef = B45E9E0D1BC6131900F10FCE /* NSString+XSBirthday.m */; };
+		B45E9E111BC6132B00F10FCE /* NSDate+XSBirthday.m in Sources */ = {isa = PBXBuildFile; fileRef = B45E9E101BC6132B00F10FCE /* NSDate+XSBirthday.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B4567A001C83E5DA00B24D1F /* XSCornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSCornerRadius.h; sourceTree = "<group>"; };
+		B4567A011C83E5DA00B24D1F /* XSCornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSCornerRadius.m; sourceTree = "<group>"; };
 		B45E9DF11BC612D900F10FCE /* XSUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XSUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B45E9DF51BC612D900F10FCE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B45E9DF71BC612D900F10FCE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -45,6 +48,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B45679FF1C83E5B200B24D1F /* Corner */ = {
+			isa = PBXGroup;
+			children = (
+				B4567A001C83E5DA00B24D1F /* XSCornerRadius.h */,
+				B4567A011C83E5DA00B24D1F /* XSCornerRadius.m */,
+			);
+			name = Corner;
+			sourceTree = "<group>";
+		};
 		B45E9DE81BC612D900F10FCE = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +101,7 @@
 		B45E9E0B1BC6130E00F10FCE /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				B45679FF1C83E5B200B24D1F /* Corner */,
 				B45E9E0C1BC6131900F10FCE /* NSString+XSBirthday.h */,
 				B45E9E0D1BC6131900F10FCE /* NSString+XSBirthday.m */,
 				B45E9E0F1BC6132B00F10FCE /* NSDate+XSBirthday.h */,
@@ -172,6 +185,7 @@
 				B45E9DF91BC612D900F10FCE /* AppDelegate.m in Sources */,
 				B45E9DF61BC612D900F10FCE /* main.m in Sources */,
 				B45E9E111BC6132B00F10FCE /* NSDate+XSBirthday.m in Sources */,
+				B4567A021C83E5DA00B24D1F /* XSCornerRadius.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +332,7 @@
 				B45E9E0A1BC612D900F10FCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
