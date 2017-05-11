@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D02D12E1EC46B6F00C8CCDC /* XSCountDownControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D02D12B1EC46B6F00C8CCDC /* XSCountDownControl.m */; };
+		8D02D12F1EC46B6F00C8CCDC /* XSCountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D02D12D1EC46B6F00C8CCDC /* XSCountDownButton.m */; };
 		B4567A021C83E5DA00B24D1F /* XSCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = B4567A011C83E5DA00B24D1F /* XSCornerRadius.m */; };
 		B45E9DF61BC612D900F10FCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B45E9DF51BC612D900F10FCE /* main.m */; };
 		B45E9DF91BC612D900F10FCE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B45E9DF81BC612D900F10FCE /* AppDelegate.m */; };
@@ -19,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D02D12A1EC46B6F00C8CCDC /* XSCountDownControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSCountDownControl.h; sourceTree = "<group>"; };
+		8D02D12B1EC46B6F00C8CCDC /* XSCountDownControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSCountDownControl.m; sourceTree = "<group>"; };
+		8D02D12C1EC46B6F00C8CCDC /* XSCountDownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSCountDownButton.h; sourceTree = "<group>"; };
+		8D02D12D1EC46B6F00C8CCDC /* XSCountDownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSCountDownButton.m; sourceTree = "<group>"; };
 		B4567A001C83E5DA00B24D1F /* XSCornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSCornerRadius.h; sourceTree = "<group>"; };
 		B4567A011C83E5DA00B24D1F /* XSCornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSCornerRadius.m; sourceTree = "<group>"; };
 		B45E9DF11BC612D900F10FCE /* XSUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XSUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,6 +112,10 @@
 				B45E9E0D1BC6131900F10FCE /* NSString+XSBirthday.m */,
 				B45E9E0F1BC6132B00F10FCE /* NSDate+XSBirthday.h */,
 				B45E9E101BC6132B00F10FCE /* NSDate+XSBirthday.m */,
+				8D02D12A1EC46B6F00C8CCDC /* XSCountDownControl.h */,
+				8D02D12B1EC46B6F00C8CCDC /* XSCountDownControl.m */,
+				8D02D12C1EC46B6F00C8CCDC /* XSCountDownButton.h */,
+				8D02D12D1EC46B6F00C8CCDC /* XSCountDownButton.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -184,7 +194,9 @@
 				B45E9E0E1BC6131900F10FCE /* NSString+XSBirthday.m in Sources */,
 				B45E9DF91BC612D900F10FCE /* AppDelegate.m in Sources */,
 				B45E9DF61BC612D900F10FCE /* main.m in Sources */,
+				8D02D12E1EC46B6F00C8CCDC /* XSCountDownControl.m in Sources */,
 				B45E9E111BC6132B00F10FCE /* NSDate+XSBirthday.m in Sources */,
+				8D02D12F1EC46B6F00C8CCDC /* XSCountDownButton.m in Sources */,
 				B4567A021C83E5DA00B24D1F /* XSCornerRadius.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

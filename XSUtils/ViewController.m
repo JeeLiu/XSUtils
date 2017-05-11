@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import "NSString+XSBirthday.h"
+#import "XSCountDownControl.h"
+
 @interface ViewController ()
 
 @end
@@ -19,6 +21,15 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     NSLog(@"== %@",[NSString astroForBirthday:@"1988-08-29"]);
+    
+    
+    [XSCountDownControl startCountingDown:60 block:^(NSInteger remain) {
+        if (remain <= 0) {
+            NSLog(@"重新获取");
+        } else {
+            NSLog(@"重新获取(%@)", @(remain));
+        }
+    }];
 }
 
 - (void)didReceiveMemoryWarning {
