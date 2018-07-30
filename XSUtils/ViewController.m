@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "NSString+XSBirthday.h"
 #import "XSCountDownControl.h"
+#import "WaterView.h"
 
 @interface ViewController ()
 
@@ -19,6 +20,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    WaterView *water = [[WaterView alloc] initWithFrame:CGRectMake(50, 50, 100, 100)];
+    water.percent = 0.5;
+    water.isCircle = YES;
+    water.waterColor = [UIColor greenColor];
+    
+    [self.view addSubview:water];
     
     NSLog(@"== %@",[NSString astroForBirthday:@"1988-08-29"]);
     
