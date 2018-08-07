@@ -10,6 +10,10 @@
 		8D02D12E1EC46B6F00C8CCDC /* XSCountDownControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D02D12B1EC46B6F00C8CCDC /* XSCountDownControl.m */; };
 		8D02D12F1EC46B6F00C8CCDC /* XSCountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D02D12D1EC46B6F00C8CCDC /* XSCountDownButton.m */; };
 		8D06E7AB210EF67E007DD7A4 /* WaterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D06E7AA210EF67E007DD7A4 /* WaterView.m */; };
+		8D22D3C3211981CF00BD7766 /* LXDHostMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D22D3BB211981CE00BD7766 /* LXDHostMapper.m */; };
+		8D22D3C4211981CF00BD7766 /* LXDHostFilterRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D22D3BC211981CE00BD7766 /* LXDHostFilterRule.m */; };
+		8D22D3C5211981CF00BD7766 /* NSURLProtocol+WebKitSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D22D3C1211981CF00BD7766 /* NSURLProtocol+WebKitSupport.m */; };
+		8D22D3C6211981CF00BD7766 /* LXDDNSInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D22D3C2211981CF00BD7766 /* LXDDNSInterceptor.m */; };
 		B4567A021C83E5DA00B24D1F /* XSCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = B4567A011C83E5DA00B24D1F /* XSCornerRadius.m */; };
 		B45E9DF61BC612D900F10FCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B45E9DF51BC612D900F10FCE /* main.m */; };
 		B45E9DF91BC612D900F10FCE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B45E9DF81BC612D900F10FCE /* AppDelegate.m */; };
@@ -28,6 +32,14 @@
 		8D02D12D1EC46B6F00C8CCDC /* XSCountDownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSCountDownButton.m; sourceTree = "<group>"; };
 		8D06E7A9210EF67E007DD7A4 /* WaterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterView.h; sourceTree = "<group>"; };
 		8D06E7AA210EF67E007DD7A4 /* WaterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterView.m; sourceTree = "<group>"; };
+		8D22D3BB211981CE00BD7766 /* LXDHostMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXDHostMapper.m; sourceTree = "<group>"; };
+		8D22D3BC211981CE00BD7766 /* LXDHostFilterRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXDHostFilterRule.m; sourceTree = "<group>"; };
+		8D22D3BD211981CE00BD7766 /* LXDHostMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXDHostMapper.h; sourceTree = "<group>"; };
+		8D22D3BE211981CF00BD7766 /* LXDDNSInterceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXDDNSInterceptor.h; sourceTree = "<group>"; };
+		8D22D3BF211981CF00BD7766 /* LXDHostFilterRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXDHostFilterRule.h; sourceTree = "<group>"; };
+		8D22D3C0211981CF00BD7766 /* NSURLProtocol+WebKitSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLProtocol+WebKitSupport.h"; sourceTree = "<group>"; };
+		8D22D3C1211981CF00BD7766 /* NSURLProtocol+WebKitSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLProtocol+WebKitSupport.m"; sourceTree = "<group>"; };
+		8D22D3C2211981CF00BD7766 /* LXDDNSInterceptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXDDNSInterceptor.m; sourceTree = "<group>"; };
 		B4567A001C83E5DA00B24D1F /* XSCornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSCornerRadius.h; sourceTree = "<group>"; };
 		B4567A011C83E5DA00B24D1F /* XSCornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSCornerRadius.m; sourceTree = "<group>"; };
 		B45E9DF11BC612D900F10FCE /* XSUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XSUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,6 +69,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D22D3BA211981A900BD7766 /* DNS */ = {
+			isa = PBXGroup;
+			children = (
+				8D22D3BE211981CF00BD7766 /* LXDDNSInterceptor.h */,
+				8D22D3C2211981CF00BD7766 /* LXDDNSInterceptor.m */,
+				8D22D3BF211981CF00BD7766 /* LXDHostFilterRule.h */,
+				8D22D3BC211981CE00BD7766 /* LXDHostFilterRule.m */,
+				8D22D3BD211981CE00BD7766 /* LXDHostMapper.h */,
+				8D22D3BB211981CE00BD7766 /* LXDHostMapper.m */,
+				8D22D3C0211981CF00BD7766 /* NSURLProtocol+WebKitSupport.h */,
+				8D22D3C1211981CF00BD7766 /* NSURLProtocol+WebKitSupport.m */,
+			);
+			path = DNS;
+			sourceTree = "<group>";
+		};
 		B45679FF1C83E5B200B24D1F /* Corner */ = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +112,7 @@
 		B45E9DF31BC612D900F10FCE /* XSUtils */ = {
 			isa = PBXGroup;
 			children = (
+				8D22D3BA211981A900BD7766 /* DNS */,
 				B45E9E0B1BC6130E00F10FCE /* Utils */,
 				B45E9DF71BC612D900F10FCE /* AppDelegate.h */,
 				B45E9DF81BC612D900F10FCE /* AppDelegate.m */,
@@ -196,12 +224,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				B45E9DFC1BC612D900F10FCE /* ViewController.m in Sources */,
+				8D22D3C3211981CF00BD7766 /* LXDHostMapper.m in Sources */,
 				8D06E7AB210EF67E007DD7A4 /* WaterView.m in Sources */,
 				B45E9E0E1BC6131900F10FCE /* NSString+XSBirthday.m in Sources */,
+				8D22D3C6211981CF00BD7766 /* LXDDNSInterceptor.m in Sources */,
+				8D22D3C5211981CF00BD7766 /* NSURLProtocol+WebKitSupport.m in Sources */,
 				B45E9DF91BC612D900F10FCE /* AppDelegate.m in Sources */,
 				B45E9DF61BC612D900F10FCE /* main.m in Sources */,
 				8D02D12E1EC46B6F00C8CCDC /* XSCountDownControl.m in Sources */,
 				B45E9E111BC6132B00F10FCE /* NSDate+XSBirthday.m in Sources */,
+				8D22D3C4211981CF00BD7766 /* LXDHostFilterRule.m in Sources */,
 				8D02D12F1EC46B6F00C8CCDC /* XSCountDownButton.m in Sources */,
 				B4567A021C83E5DA00B24D1F /* XSCornerRadius.m in Sources */,
 			);
